@@ -443,13 +443,20 @@ body{
     }
     .user-section{
         gap:10rem;
-        padding-left: 20rem;
-        padding-right:20rem;
+        padding-left: 10rem;
+        padding-right:10rem;
     }
     .user-section>img{
         width:40rem;
     }
     .content-info{
         padding-bottom:15rem;
+    }
+
+}
+@media screen and (min-width:1900px){
+    .user-text{
+        padding-left:10rem;
+        padding-right:10rem;
     }
 }
